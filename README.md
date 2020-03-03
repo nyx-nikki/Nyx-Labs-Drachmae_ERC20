@@ -35,3 +35,5 @@ Extensions
 
 Utilities
 {{SafeERC20}}
+
+- Solidity version 0.6.2
