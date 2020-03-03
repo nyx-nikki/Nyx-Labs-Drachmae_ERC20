@@ -4,6 +4,21 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Capped.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol";
 
+/**
+ * @title DAE Token Contract
+ *
+ * @author @wafflemakr
+ *
+ *
+ *  Name:           Drachmae
+ *  Symbol:         DAE
+ *  Decimals:       4
+ *  Initial Supply: 4,200,000.000 (0x3425853Ce9055859b683FA7c6DDe156f2430b6a1)
+ *  Max Supply:     420,000,000.0000
+ *  Features:       Capped, Mintable
+ *  Minters:        0x1cAb97Def5fb15a965E875765Fce94073CB980C4
+ *
+ */
 contract DAE is ERC20Detailed, ERC20Mintable, ERC20Capped {
     constructor()
         public
