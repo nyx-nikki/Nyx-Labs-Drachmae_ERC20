@@ -1,6 +1,6 @@
 # Drachmae---Nyx-Labs
-Drachmae is an ERC20 Token connected to the Ethereum Mainnet. Contains js, JSON, Solidity and more.Thanks to Wafflemakr for the help!
 
+Drachmae is an ERC20 Token connected to the Ethereum Mainnet. Contains js, JSON, Solidity and more.Thanks to Wafflemakr for the help!
 
 Drachmae is intended as a Proof of Concept of a token intended for web-based applications.
 
@@ -24,20 +24,6 @@ Drachmae is intended as a Proof of Concept of a token intended for web-based app
 
 - Token should use SafeMath
 
+Token Contract Addresses:
 
-
-
-Core
-{{IERC20}}
-
-Extensions
-{{ERC20Mintable}}
-
-{{ERC20Pausable}}
-
-{{ERC20Capped}}
-
-Utilities
-{{SafeERC20}}
-
-- Solidity version 0.6.2
+Rinkeby - [0x1EAA5D4Df7Ca128a9b4513590211B88962060DD7](https://rinkeby.etherscan.io/address/0x1eaa5d4df7ca128a9b4513590211b88962060dd7)

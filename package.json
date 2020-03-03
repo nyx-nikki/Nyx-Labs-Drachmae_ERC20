@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "chain": "ganache-cli --networkId 999",
-    "deploy": "truffle migrate --reset --network rinkeby"
+    "deploy": "truffle migrate --reset --network rinkeby",
+    "flatten": "cd contracts && truffle-flattener DAE.sol > DAE-Flattened.sol"
   },
   "repository": {
     "type": "git",
