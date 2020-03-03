@@ -4,16 +4,21 @@ Drachmae is an ERC20 Token connected to the Ethereum Mainnet. Contains js, JSON,
 
 Drachmae is intended as a Proof of Concept of a token intended for web-based applications.
 
-he token is called "Drachmae"
+The token is called "Drachmae"
+
 The Symbol is DAE
+
 The total supply should be 420,000,000.0000 (four hundred twenty million. four decimal spots)
+
 Initial supply should be 4,200,000.000 (four point two million)
+
 Token should be mintable
+
 Token should be pausable
+
 Token should have a transfer fee.
+
 Token should be not burnable
-Basically, I know that services like https://tokenmint.io/ and https://www.togen.io/ offer similar services.
-I would however like it to be done by a human that can later explain the process to me.
 
 
 
