@@ -1,0 +1,29 @@
+{
+  "name": "Drachmae---Nyx-Labs",
+  "version": "1.0.0",
+  "description": "Drachmae is an ERC20 Token connected to the Ethereum Mainnet. Contains js, JSON, Solidity and more.Thanks to Wafflemakr for the help!",
+  "main": "index.js",
+  "scripts": {
+    "chain": "ganache-cli --networkId 999",
+    "deploy": "truffle migrate --reset --network rinkeby"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyx-nikki/Drachmae---Nyx-Labs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyx-nikki/Drachmae---Nyx-Labs/issues"
+  },
+  "homepage": "https://github.com/nyx-nikki/Drachmae---Nyx-Labs#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "@truffle/hdwallet-provider": "^1.0.32",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eth-gas-reporter": "^0.2.15"
+  }
+}
