@@ -3,10 +3,8 @@ require("dotenv").config();
 
 const providerFactory = network =>
   new HDWalletProvider(
-    process.env.MNEMONICS,
-    `https://${network}.infura.io/v3/${process.env.INFURA_KEY}`,
-    0,
-    20
+    process.env.PRIVATE_KEY,
+    `https://${network}.infura.io/v3/${process.env.INFURA_KEY}`
   );
 
 module.exports = {
@@ -20,7 +18,7 @@ module.exports = {
       provider: () => providerFactory("mainnet"),
       network_id: 1,
       gas: 7000000,
-      gasPrice: 20000000000 // 20 Gwei, Change this value according to price average of the deployment time
+      gasPrice: 1000000000 // 1 Gwei, Change this value according to price average of the deployment time
     },
     rinkeby: {
       provider: () => providerFactory("rinkeby"),
