@@ -1,4 +1,4 @@
-# Drachmae---Nyx-Labs
+# Drachmae-PoC--Nyx-Labs
 
 Drachmae is an ERC20 Token connected to the Ethereum Mainnet. Contains js, JSON, Solidity and more.
 
