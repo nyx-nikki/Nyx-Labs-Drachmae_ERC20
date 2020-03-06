@@ -1,5 +1,5 @@
 pragma solidity ^0.4.18;
-
+https://github.com/nyx-nikki/Nyx-Labs-Project-Styx/blob/master/erc777/contracts/Crowdsale.sol
 import "../node_modules/giveth-common-contracts/contracts/SafeMath.sol";
 import "../node_modules/eip820/contracts/EIP820Implementer.sol";
 import "../node_modules/eip777/contracts/ReferenceToken.sol";
@@ -20,22 +20,31 @@ contract Crowdsale is EIP820Implementer {
 
   // The token being accepted
   ReferenceToken public inputToken;
-
+- Ethereum
+- Basic Attention Token
+- Stellar
+- Ethereum Classic
+ 
   // The token being sold
   ReferenceToken public outputToken;
+  Drachmae ERC777
 
   // start and end timestamps where investments are allowed (both inclusive)
   uint256 public startTime;
   uint256 public endTime;
+  - Timeframe: 45 days
 
   // address where funds are collected
   address public wallet;
 
+
   // how many token units a buyer gets per wei
   uint256 public rate;
+  1 ETH = 42000 DAE
 
   // amount of raised money in wei
   uint256 public weiRaised;
+Goal: 50000$
 
   /**
    * event for token purchase logging
